@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Scopri Terracina - Storia, monumenti, spiagge e informazioni utili per visitare questa meravigliosa città costiera del Lazio">
+    <title>Terracina - Perla del Tirreno</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">Terracina</div>
+            <button class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#storia" class="nav-link">Storia</a></li>
+                <li><a href="#luoghi" class="nav-link">Luoghi</a></li>
+                <li><a href="#info" class="nav-link">Info Utili</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-image">
+            <img src="images/hero.png" alt="Panorama di Terracina">
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">Terracina</h1>
+            <p class="hero-subtitle">Dove la storia incontra il mare</p>
+            <a href="#storia" class="hero-cta">Scopri di più</a>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- History Section -->
+    <section class="section storia" id="storia">
+        <div class="container">
+            <h2 class="section-title">La Storia di Terracina</h2>
+            <div class="storia-content">
+                <div class="storia-card fade-in">
+                    <div class="storia-icon">🏛️</div>
+                    <h3>Epoca Romana</h3>
+                    <p>Fondata come <strong>Anxur</strong> dai Volsci, Terracina divenne un importante centro romano lungo la Via Appia. Il maestoso Tempio di Giove Anxur testimonia la grandezza di quest'epoca.</p>
+                </div>
+                <div class="storia-card fade-in">
+                    <div class="storia-icon">⛪</div>
+                    <h3>Medioevo</h3>
+                    <p>Durante il Medioevo, Terracina acquisì grande importanza religiosa. La Cattedrale di San Cesareo, costruita nel XII secolo, rappresenta un capolavoro dell'architettura romanica.</p>
+                </div>
+                <div class="storia-card fade-in">
+                    <div class="storia-icon">🌊</div>
+                    <h3>Era Moderna</h3>
+                    <p>Oggi Terracina è una rinomata località balneare che ha saputo preservare il suo patrimonio storico, offrendo ai visitatori un perfetto equilibrio tra cultura e relax.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Places Section -->
+    <section class="section luoghi" id="luoghi">
+        <div class="container">
+            <h2 class="section-title">Luoghi di Interesse</h2>
+            <div class="luoghi-grid">
+                <div class="luogo-card fade-in">
+                    <div class="luogo-image">
+                        <img src="images/tempio.png" alt="Tempio di Giove Anxur">
+                        <div class="luogo-overlay">
+                            <span class="luogo-tag">Sito Archeologico</span>
+                        </div>
+                    </div>
+                    <div class="luogo-content">
+                        <h3>Tempio di Giove Anxur</h3>
+                        <p>Maestoso tempio romano del I secolo a.C. situato sul Monte Sant'Angelo, offre una vista panoramica mozzafiato sulla costa e sulla città.</p>
+                    </div>
+                </div>
+
+                <div class="luogo-card fade-in">
+                    <div class="luogo-image">
+                        <img src="images/cattedrale.png" alt="Cattedrale di San Cesareo">
+                        <div class="luogo-overlay">
+                            <span class="luogo-tag">Monumento Religioso</span>
+                        </div>
+                    </div>
+                    <div class="luogo-content">
+                        <h3>Cattedrale di San Cesareo</h3>
+                        <p>Splendida cattedrale romanica del XII secolo nel cuore del centro storico, con facciata decorata e campanile medievale.</p>
+                    </div>
+                </div>
+
+                <div class="luogo-card fade-in">
+                    <div class="luogo-image">
+                        <img src="images/centro.png" alt="Centro Storico">
+                        <div class="luogo-overlay">
+                            <span class="luogo-tag">Centro Storico</span>
+                        </div>
+                    </div>
+                    <div class="luogo-content">
+                        <h3>Centro Storico</h3>
+                        <p>Affascinanti vicoli medievali, piazze storiche e resti romani creano un'atmosfera unica ricca di storia e tradizione.</p>
+                    </div>
+                </div>
+
+                <div class="luogo-card fade-in">
+                    <div class="luogo-image">
+                        <img src="images/spiaggia.png" alt="Spiaggia di Levante">
+                        <div class="luogo-overlay">
+                            <span class="luogo-tag">Spiaggia</span>
+                        </div>
+                    </div>
+                    <div class="luogo-content">
+                        <h3>Spiaggia di Levante</h3>
+                        <p>Lunga spiaggia di sabbia dorata con acque cristalline, perfetta per famiglie e amanti del mare. Stabilimenti attrezzati e spiagge libere.</p>
+                    </div>
+                </div>
+
+                <div class="luogo-card fade-in">
+                    <div class="luogo-image">
+                        <img src="images/porto.png" alt="Porto di Terracina">
+                        <div class="luogo-overlay">
+                            <span class="luogo-tag">Porto</span>
+                        </div>
+                    </div>
+                    <div class="luogo-content">
+                        <h3>Porto di Terracina</h3>
+                        <p>Moderno porto turistico con ristoranti sul mare, ideale per passeggiate serali e per ammirare i tramonti sul Tirreno.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Info Section -->
+    <section class="section info" id="info">
+        <div class="container">
+            <h2 class="section-title">Informazioni Utili</h2>
+            <div class="info-grid">
+                <div class="info-card fade-in">
+                    <div class="info-icon">🚗</div>
+                    <h3>Come Arrivare</h3>
+                    <ul>
+                        <li><strong>In Auto:</strong> Via Pontina (SS148) da Roma (circa 1h 30min)</li>
+                        <li><strong>In Treno:</strong> Stazione Terracina sulla linea Roma-Napoli</li>
+                        <li><strong>In Autobus:</strong> Collegamenti da Roma e Latina</li>
+                    </ul>
+                </div>
+
+                <div class="info-card fade-in">
+                    <div class="info-icon">☀️</div>
+                    <h3>Quando Visitare</h3>
+                    <ul>
+                        <li><strong>Primavera (Apr-Giu):</strong> Clima mite, ideale per visite culturali</li>
+                        <li><strong>Estate (Lug-Ago):</strong> Alta stagione balneare, mare caldo</li>
+                        <li><strong>Autunno (Set-Ott):</strong> Temperature gradevoli, meno affollato</li>
+                    </ul>
+                </div>
+
+                <div class="info-card fade-in">
+                    <div class="info-icon">🍝</div>
+                    <h3>Cucina Locale</h3>
+                    <ul>
+                        <li><strong>Pesce Fresco:</strong> Specialità di mare del Tirreno</li>
+                        <li><strong>Tiella:</strong> Piatto tradizionale con polpo e patate</li>
+                        <li><strong>Vini:</strong> Moscato di Terracina DOC</li>
+                    </ul>
+                </div>
+
+                <div class="info-card fade-in">
+                    <div class="info-icon">📞</div>
+                    <h3>Contatti Utili</h3>
+                    <ul>
+                        <li><strong>Info Turistiche:</strong> +39 0773 727759</li>
+                        <li><strong>Emergenze:</strong> 112</li>
+                        <li><strong>Comune:</strong> comune.terracina.lt.it</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Terracina - Perla del Tirreno. Creato con ❤️ per promuovere la bellezza di Terracina.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
